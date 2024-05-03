@@ -1,0 +1,19 @@
+# Ignore object files (.o)
+*.o
+
+# Ignore dependency files (.d, .dep, etc.)
+*.d
+*.dep
+*.pp
+
+# Ignore compiled headers (.gch)
+*.gch
+
+# Ignore build directories (e.g., obj/, out/)
+obj/
+out/
+
+# Ignore other build-related files
+Makefile*
+config.h
+config.status
