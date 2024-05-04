@@ -1,6 +1,9 @@
 # Ignore object files (.o)
 *.o
 
+# Ignore binary files (.bin)
+*.bin
+
 # Ignore dependency files (.d, .dep, etc.)
 *.d
 *.dep
