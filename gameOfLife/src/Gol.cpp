@@ -12,6 +12,7 @@ namespace Gol
     {
         // init board
         initaliseBoard(WIDTH, HEIGHT, &map[0], &new_map[0]);
+        int step = 0;
         while (1)
         {
             // print board
@@ -19,8 +20,9 @@ namespace Gol
 
             // run game
             populateNextFrame(WIDTH, HEIGHT, &map[0], &new_map[0]);
-            std::cout << "\n";
+            std::cout << "step " << step++ << "\n";
             std::this_thread::sleep_for(std::chrono::milliseconds(500));
+            system("clear");
         }
     }
 
